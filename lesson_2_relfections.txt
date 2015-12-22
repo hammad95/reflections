@@ -36,6 +36,23 @@ and how it goes into multiple directions as you introduce more branches. It also
 understand the concept of commit parents and how a commit made on a previously added commit can
 cause your commit to be lost when you return to one of your branches.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way 
+we do?
+
+Merging two branches together takes all the commits from the two branches and combines them into
+one branch. This way if an experimental feature added on a new branch needs to be integrated into
+the main project, merging the branches can achieve this effect.
+
+When we merge two branches, the head points to the new commit created by merging the branches.
+All of the most recent commits from the previous branches become the parents of the new commit,
+which is why we represent it the way we do in the diagram.
+
+
+
+
+
+
+
 
 
 
