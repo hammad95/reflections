@@ -11,3 +11,10 @@ think it offers?
 
 The staging area is a kind of space between the working directory and repository. It allows you
 to visualize what changes you are about to commit to the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to review the changes you have made to one or more of your files before
+committing them using the "git diff" and "git diff --staged" commands. This way, if you find out
+that you have made several logical changes instead of one since the last commit, you can add the
+files to the staging area one at a time to avoid making a large commit.
