@@ -18,3 +18,25 @@ The staging area allows you to review the changes you have made to one or more o
 committing them using the "git diff" and "git diff --staged" commands. This way, if you find out
 that you have made several logical changes instead of one since the last commit, you can add the
 files to the staging area one at a time to avoid making a large commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How 
+would branches help?
+
+Branches can be useful when you want to add an experimental feature to your project or extend it
+to support multiple languages.
+
+In case of an experimental feature, you can add a new branch for that feature and keep all of your
+new data safe on the new branch. Similarly, for supporting multiple languages, you can make
+separate branches from your existing branch and make the neccessary chnanges on the new branches.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams of the commit history help you to see how the commit history on one branch proceeds
+and how it goes into multiple directions as you introduce more branches. It also helps you 
+understand the concept of commit parents and how a commit made on a previously added commit can
+cause your commit to be lost when you return to one of your branches.
+
+
+
+
+
