@@ -47,7 +47,16 @@ When we merge two branches, the head points to the new commit created by merging
 All of the most recent commits from the previous branches become the parents of the new commit,
 which is why we represent it the way we do in the diagram.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
+Git's automatic merging capability allows easy merging of code in a file if the same area of the
+file, for instance, the same lines of code in a file were not modified. Since it is possible to 
+efficiently achieve this result through Git's auto-merging feature, it would be a waste of time
+for the programmers if they had to do it manually everytime they merged their work.
+
+However, when there is a conflict in merging, i.e. when the same lines in a file have been 
+modified, Git does not know which changes to include in the final version, thus, auto-merge would
+most probably cause errors in the final version.
 
 
 
