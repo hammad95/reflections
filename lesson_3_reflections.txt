@@ -12,3 +12,18 @@ You would only want to pull when you want to see if any changes were added to th
 other users. If Git automatically does it for you, you wouldn't know if any changes were committed
 while you were working on files on your own and you would have to run git log everytime before 
 committing any changes.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of 
+another?
+
+Forking can be seen as making a copy of an existing repository and adding to it. The original
+repository remains unchanged.
+Cloning means making a copy of a repository and committing changes to the original repository.
+Branching means creating a new branch on an existing repository.
+
+Forking can be used when you want to add to an existing repository but don't want the original
+repository to change.
+Cloning is used when you want to copy a repository to your machine and committing to the original
+repository.
+Branching is used when you want to commit changes on a separate branch, perhaps to try an
+experimental feature, but wan to avoid modifying the master branch.
