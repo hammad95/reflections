@@ -45,6 +45,18 @@ etc. However, when there are conflicts in files, users still need to discuss wit
 resolve the issue and if the users not very experienced, they can possibly generate rather
 complicated conflicts which might be really time hard and time consuming to solve.
 
+When would you want to make changes in a separate branch rather than directly in master? What 
+benefits does each approach have?
+
+When adding a new feature or making a pull request, it is useful to to commit chnages to a
+separate branch becuase it allows you to keep the master branch in a working condition and at the
+same time have you work for the new feature(s) saved on a separate branch that you can merge later
+in your master branch.
+
+
+
+
+
 
 
 
