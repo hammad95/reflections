@@ -27,3 +27,16 @@ Cloning is used when you want to copy a repository to your machine and committin
 repository.
 Branching is used when you want to commit changes on a separate branch, perhaps to try an
 experimental feature, but wan to avoid modifying the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having a copy of the last known state of the remote stored locally helps you determine if your
+GitHub repository is up-to-data with your local repository.
+
+
+
+
+
+
+
+
