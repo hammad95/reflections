@@ -53,7 +53,7 @@ separate branch becuase it allows you to keep the master branch in a working con
 same time have you work for the new feature(s) saved on a separate branch that you can merge later
 in your master branch.
 
-
+---END---
 
 
 
